@@ -1,0 +1,45 @@
+/* src/App.css */
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  background-color: #f9f9f9; /* Color de fondo más claro */
+}
+
+th {
+  background-color: #d3e0ea; /* Color del encabezado */
+}
+
+tr:nth-child(even) {
+  background-color: #e2f0cb; /* Color alternativo para filas */
+}
+
+tr:hover {
+  background-color: #c4e1ff; /* Color al pasar el mouse */
+}
+
+.consultar-button {
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: #0095ff; /* Color del botón */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.consultar-button:hover {
+  background-color: #007acc; /* Color del botón al pasar el mouse */
+}
